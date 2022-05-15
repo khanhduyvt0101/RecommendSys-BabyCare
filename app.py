@@ -8,7 +8,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return '<h1>Welcome to BabyCare_RecommendSys server</h1>'
+    return jsonify('Welcome to BabyCare_RecommendSys server')
+
 
 
 @app.route("/similar_hotel")
