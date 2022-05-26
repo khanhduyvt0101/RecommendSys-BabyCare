@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "baby-care-69c67",
+  "private_key_id": "93d5cb595f9f18bed2dfc69199484ec327701b82",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMXYubLUhZcnXr\nruPVH4Ye7/5/JzWWXOu8hTjRcP6mSsmwxGqfrgrnVbORVkACExFQ+qkc47pgby38\n26iDW0sb2/lnbi+QZQr7NO3JJJ6q1isDt63sFz7p7tDfPHOUIvsBkf0wr9RGqaQu\nocuGFHYmt8m1CbFjuqTYdOhQSwU4Pm96WTDF7Sk24YEaOECSo5RyzpAvYCgRq6gc\nYnZygV3r1+VgrtqfoneNajSx5e7cjTmc9FJWyWm2DiI6TOX930VeDr+4kiYx+ZFA\nTlzxACCh4lWxDsgSL53SeLZv4ijfqltl8YVqujuTEDUxSIq3cSTuw/4kPHfriOqI\nrHqwy6rVAgMBAAECggEAMG9xUX9beNugaBHkrJPSmU1/D0rPMApo0p7udvElYWsz\nPyJmNN8udWKB8w2ykOtM/NjTsOWmPAnNp/K1jyBZfkpV43YhbsML5brHKpdzxYCJ\n5FEptt1Ri2cO+QGeUPsza01a6SmbEX5OS8EL+ASsdgO0GiSodr77J9QZZUJKg+gX\n2UcV2nwbpg+wRDVfZc4H/1hsLzp8Gzqcnh5gVatmqkfj0o1FJIWn0uJu9hPrEv+Z\nzZ18qOKlcuGTbWDHWdd6y/OfqZl89+rTn8D2J9Knvv7tTmOk1wNE3GvAN6O02Bwz\nN6N7XYv7JbdjMWjzeHVJt45IhTXIhHaQh+ylXsOgpwKBgQDpWEtvw3dVvGM2mniq\nl5+sMCxgWpviMsCvRKIqrfDHS8rs/I1F6nPe7rDBUHNrlV/eFJ7Uf9db+RcZKJEf\nnNCBZLproGPRCW6ogjBvNA1zUCTyc91lQksTubG97sQOOoFRU7Ivf1AUXapPfcJ5\nIDfS4rLnDJJ5k16ueLwBmVT6CwKBgQDgNPnEk6OJGCihgcX4gSKdngZxmSy+fNUa\ngKmic6+TkrdWrMfJPOk8a+QZbI7RQPPXEylj/YpSRrvpM/IitxPp6mgawFtAhmZ5\n2FZyCgkO0EQWKGLAtHtp8CgT7ndAz66ZwIUvOGtJhRxO/Scal1XDyf38n4ZdZ/HZ\n7EUzLaXanwKBgBzAR1M3B14l/yd8Mv/5/K+Po/gfUfO2Ay3VTBHsKq2ztgYrPBDw\nSWSfjmHTUtVfq1dGvSc7tUJc166+49q8TKiUy691LLdV7S+QEv2wsTOTHWpOQmo2\nl9+PUsovQDLsnIBzypG1ox1PSSvQOAUKpjYyvo5fazDVqqXetHOR+/lvAoGBAJ+T\ndPYBstKfvEN/bx05JB8U2zc9M0h85twPGS2Ds0KQmSb6oNPNI6AalmW2C0xKM4Mv\nozUEvs9igtovW7ZzoZvKd8Aaipg5UHSGkrhmBh5iAyPWKLtJedFj2dKd1ojtiDLs\ngJ6kRFA2inh527wkXCmW+cw06lhO5Ccb8ADGC5a3AoGBANqwuIg+KD3WjrUrbCgc\nvA0bJMO5Q9ltPopP5jw98iDqET6EruSzn3jMAq8iMJNgQLgo0DkBlrPF0aE1pOc5\n1LdnSnro4Q4lRfRM631zCR1b+Q6PLDaTdCL+qt2L/MnwNCLI/7p7rzNtHu42/Cn4\nqIJwD6ewy9bkW84DyGXt0X0A\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-oea7t@baby-care-69c67.iam.gserviceaccount.com",
+  "client_id": "106268661710947075434",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-oea7t%40baby-care-69c67.iam.gserviceaccount.com"
+}

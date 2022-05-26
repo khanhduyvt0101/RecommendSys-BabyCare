@@ -1,7 +1,7 @@
 from flask import request
 from flask import jsonify
 from flask import Flask
-import HotelRecommenderSys as recommend
+import ProductRecommenderSys as recommend
 
 app = Flask(__name__)
 
@@ -12,53 +12,53 @@ def hello():
 
 
 
-@app.route("/similar_hotel")
-def similar_hotel():
-    # Get hotel_id
-    hotel_id = 0
+@app.route("/similar_products")
+def similar_product():
+    # Get product_id
+    product_id = 0
     try:
-        hotel_id = str(request.args.get('hotel_id'))
+        product_id = str(request.args.get('product_id'))
     except IndexError:
-        hotel_id = 0
+        product_id = 0
 
     # Init Recommender
-    hotelRecommender = recommend.HotelRecommenderSys()
+    productRecommender = recommend.ProductRecommenderSys()
 
-    # Return list hotelId
-    hotelList = hotelRecommender.get_content_based(hotel_id)
+    # Return list productId
+    productList = productRecommender.get_content_based(product_id)
 
-    print(hotelList)
-    return jsonify(hotelList)
+    print(productList)
+    return jsonify(productList)
 
 
-@app.route("/hotel_recommend")
-def hotel_recommend():
+@app.route("/product_recommend")
+def product_recommend():
     # Get user_id
-    user_id = 0
-    try:
-        user_id = int(request.args.get('user_id'))
-    except IndexError:
-        user_id = 0
+    # user_id = 0
+    # try:
+    #     user_id = int(request.args.get('user_id'))
+    # except IndexError:
+    #     user_id = 0
 
-    print(type(user_id))
-    # Get recommend method
+    # print(type(user_id))
+    # # Get recommend method
     nbcf = "0"
-    try:
-        nbcf = str(request.args.get('nbcf'))
-    except IndexError:
-        nbcf = "0"
+    # try:
+    #     nbcf = str(request.args.get('nbcf'))
+    # except IndexError:
+    #     nbcf = "0"
 
     # Init Recommender
-    hotelRecommender = recommend.HotelRecommenderSys()
+    productRecommender = recommend.ProductRecommenderSys()
 
     # Return list hotelId
     if nbcf == "0":
-        hotelList = hotelRecommender.get_weighted_rating()
+        productList = productRecommender.get_weighted_rating()
     else:
-        hotelList = hotelRecommender.get_collaborative(user_id)
+        productList = productRecommender.get_collaborative(user_id)
 
-    print(hotelRecommender.get_weighted_rating())
-    return jsonify(hotelList)
+    print(productRecommender.get_weighted_rating())
+    return jsonify(productList)
 
 
 if __name__ == '__main__':
